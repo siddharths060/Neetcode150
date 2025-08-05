@@ -9,6 +9,7 @@ void swap(int &a, int &b){
     b = temp;
 }
 // algorithm is push the max to that last by using ADJACENT SWAPS
+// TIME COMPLEXITY = O(n^2)
 void bubble_sort(vector<int> &arr){
     for(int i = arr.size() -1 ; i >= 0 ; i--){
         // 1st iteration i goes from 0 to n-1
